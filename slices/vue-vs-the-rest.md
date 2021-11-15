@@ -7,7 +7,7 @@ color: #fff
 marp: true
 ---
 ![bg w:320 left](./assets/vue.png)
-# Qué es Vue 3?
+# ¿Qué es Vue?
 
 <!-- Notas al pie -->
 
