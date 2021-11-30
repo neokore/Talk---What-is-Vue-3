@@ -9,6 +9,12 @@ marp: true
 ![bg w:480](./assets/vue.png)
 # Introducción a Vue
 
+<!--
+Bienvenidos a esta introducción a Vue
+
+el objetivo de esta charla es presentaros qué es Vue a día de hoy, presentaros sus ventajas y novedades e introduciros a su formato para que podáis usarlo desde hoy mismo.
+-->
+
 ---
 <!-- _class: lead -->
 ![bg w:320 left](./assets/vue.png)
@@ -25,9 +31,15 @@ marp: true
 - Mantenido por la comunidad
 
 <!--
-  Creado por Evan You en 2014
-  Se ha basado en las buenas prácticas de otros frameworks
-  mejorándolas en lo que era posible (VueX, Scoped CSS)
+  Framework progresivo - permite usarlo como librería e integrarlo en cualquier parte de forma sencilla; pero a su vez te permite agregar más piezas hasta convertirlo en un framework tan completo como Angular.
+
+  Creado por Evan You en 2014, tras trabajar en Google en varios proyectos con AngularJS.
+
+  Se ha basado en las buenas prácticas y ventajas de otros frameworks (como alguna sintaxis desde Angular, VirtualDOM como React) y mejorándolas en lo que era posible (VueX, Scoped CSS, composables)
+
+  Sus objetivos desde el principio son: ...
+
+  Comparemoslo con los frameworks más populares
 -->
 
 ---
@@ -35,6 +47,7 @@ marp: true
 ![bg w:320 left](./assets/vue.png)
 # Vue vs the rest
 
+<!-- En esta comparación nos centraremos en las ventajas de cada uno de ellos para compararlas -->
 ---
 <!-- _class: lead -->
 ![bg w:320](./assets/vue.png)
@@ -49,16 +62,18 @@ marp: true
 - Dogmático
 - Respaldado por Google
 - Comunidad muy numerosa
+- Angular/CLI
 
 ---
 ![bg w:360 opacity:0.5 left](./assets/vue.png)
 # Pros de Vue
-- Curva de aprendizaje menor
-- Desarrollo más ágil
-- Rendimiento
-- Más ligero
-- Más flexible
+- Solución personalizable con opciones oficiales
 - Soporte JS / TS
+- Muy flexible
+- Menor curva de aprendizaje
+- Desarrollo más ágil
+- Más rápido y ligero
+- Vue/CLI
 
 ---
 <!-- _class: lead -->
@@ -81,10 +96,9 @@ marp: true
 # Pros de Vue
 - Soporte JS / TS
 - Composables
-- Muy flexible + opciones defecto potentes
-- Rendimiento
+- Muy flexible + opciones defecto potentes _(VueX, Router, etc.)_
+- Mayor rendimiento
 - Soporte opcional de JSX
-- Side effects incluidos en VueX
 
 ---
 <!-- _class: lead -->
@@ -190,3 +204,7 @@ Referencia Styled components de React (Librería Emotion)
 Con los styled components lo que hacemos es un "override" de los estilos de una tag html, para utilizarlo en nuestro componente
 
 Con los vuefile lo que hacemos es encapsular en un sólo archivo toda la funcionalidad de una app o componente Vue, incluyendo sus estilos, siendo estos todo lo ricos que queramos.
+
+---
+<!-- _class: lead -->
+# Gracias!
